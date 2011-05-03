@@ -9,7 +9,7 @@ License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
 # Source0-md5:	63fac2e964974195b5b1b90f992b3b2c
-URL:		http://pear.horde.org/package/Horde_Serialize/
+URL:		https://github.com/horde/horde/tree/master/framework/Serialize/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR >= 1:1.7.0
