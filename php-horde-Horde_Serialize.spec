@@ -4,7 +4,7 @@
 Summary:	%{pearname} - Data Encapulation API
 Name:		php-horde-Horde_Serialize
 Version:	1.0.0
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
@@ -23,7 +23,8 @@ Suggests:	php-bz2
 Suggests:	php-horde-Horde_Imap_Client
 Suggests:	php-horde-Horde_Mime
 Suggests:	php-json
-Suggests:	php-lzf
+# http://bugs.horde.org/ticket/10030
+Suggests:	php-pecl-lzf
 Suggests:	php-wddx
 Suggests:	php-zlib
 BuildArch:	noarch
