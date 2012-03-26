@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Data Encapulation API
 Name:		php-horde-Horde_Serialize
-Version:	1.0.1
+Version:	1.0.2
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	e976070a9bd7864745bbdf32f867ff6d
+# Source0-md5:	f306bf4571023900486aa62ea824a261
 URL:		https://github.com/horde/horde/tree/master/framework/Serialize/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
