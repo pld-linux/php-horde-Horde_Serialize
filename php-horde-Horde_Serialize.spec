@@ -19,13 +19,13 @@ Requires:	php-channel(pear.horde.org)
 Requires:	php-horde-Horde_Exception < 2.0.0
 Requires:	php-horde-Horde_Util < 2.0.0
 Requires:	php-pear >= 4:1.3.6-2
-Suggests:	php-bz2
+Suggests:	php(bz2)
+Suggests:	php(json)
+Suggests:	php(lzf)
+Suggests:	php(wddx)
+Suggests:	php(zlib)
 Suggests:	php-horde-Horde_Imap_Client
 Suggests:	php-horde-Horde_Mime
-Suggests:	php-json
-Suggests:	php-pecl-lzf
-Suggests:	php-wddx
-Suggests:	php-zlib
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
