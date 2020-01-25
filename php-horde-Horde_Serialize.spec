@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Horde_Serialize
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Data Encapulation API
 Name:		php-horde-Horde_Serialize
 Version:	1.0.2
